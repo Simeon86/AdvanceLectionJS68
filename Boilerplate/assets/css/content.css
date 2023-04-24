@@ -1,0 +1,31 @@
+#guessWord {
+    margin: 30px 0;
+}
+
+#guessWord span {
+    display: inline-block;
+    font-size: 40px;
+    margin: 0 5px;
+}
+
+#lettersContainer span {
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid green;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.correct {
+    background: green;
+    border: 1px solid green;
+    cursor: 'initial';
+    color: 'white';
+}
+
+.wrong {
+    background: red;
+    border: 1px solid red;
+    cursor: 'initial';
+    color: 'white';
+}
